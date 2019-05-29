@@ -1,0 +1,46 @@
+.page-settings {
+    padding: 20px;
+}
+
+.settings-header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.settings-header > h4 {
+    margin: 0;
+}
+
+.qrs-table {
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.qrs-table > thead > tr > th,
+.qrs-table > tbody > tr > td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.qrs-table > thead > tr > th {
+    background-color: #fafafa;
+    color: #555;
+}
+
+.pages-qr-add {
+    padding: 20px 50px;
+}
+
+.pages-qr-add .form-label {
+    width: 100px;
+}
+.pages-qr-add .form-input {
+    width: 210px;
+}
+.pages-qr-add .btn {
+    width: 100px;
+}

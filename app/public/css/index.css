@@ -1,0 +1,145 @@
+html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    color: #333333;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 55px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+}
+
+.header > li {
+    list-style: none;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header > .header-content {
+    flex: 1;
+}
+
+.content {
+    flex: 1;
+    overflow: auto;
+}
+
+.text-error {
+    color: #f5222d;
+}
+
+.text-success {
+    color: #52c41a;
+}
+
+.text-warning {
+    color: #faad14;
+}
+
+.text-primary {
+    color: #1890ff;
+}
+
+.page-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.form-group {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.form-group .form-label {
+    margin-right: 10px;
+    text-align: right;
+    color: #666;
+}
+
+.form-group .form-control {
+    flex: 1;
+}
+
+.form-group .form-control > input.form-input {
+    padding: 4px 11px;
+    font-variant: tabular-nums;
+    height: 32px;
+    color: rgba(0, 0, 0, .65);
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.btn {
+    line-height: 32px;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .015);
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 32px;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, .65);
+    background-color: #fff;
+    text-decoration: none !important;
+}
+
+.btn:hover {
+    opacity: .7;
+}
+
+.btn.btn-primary {
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .045);
+}
+
+.btn.btn-danger {
+    color: #f5222d;
+    background-color: #f5f5f5;
+    border-color: #d9d9d9;
+}
+
+.btn.btn-danger:hover {
+    background-color: #f5222d;
+    color: #ffffff;
+}

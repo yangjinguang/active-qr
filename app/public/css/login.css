@@ -1,0 +1,28 @@
+.page-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+}
+
+.login-card {
+    width: 400px;
+    border: 1px solid #dddddd;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.login-card > h2 {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.login-form .form-label {
+    width: 60px;
+    text-align: right;
+}
+
+.login-form .form-input {
+    width: 100%;
+}
