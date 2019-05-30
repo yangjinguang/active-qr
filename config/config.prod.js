@@ -18,9 +18,9 @@ module.exports = {
       // 端口号
       port: '3306',
       // 用户名
-      user: 'root',
+      user: 'qr',
       // 密码
-      password: '',
+      password: 'rzuWXu5e00NYy',
       // 数据库名
       database: 'active_qr',
     },
